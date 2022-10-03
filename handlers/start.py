@@ -40,7 +40,7 @@ async def start_(client: Client, message: Message):
        ),
     )
 
-@Client.on_message(command(["مبرمج السورس" ,"زيزو" ,"سورس" ,"السورس" ,"حمو" ,"ميوزك زيزو" ,"زيزو"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["مبرمج السورس" ,"المطور" ,"سورس" ,"السورس" ,"حمو" ,"ميوزك زيزو" ,"زيزو"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/b557e5cffeadff7704af9.jpg",
