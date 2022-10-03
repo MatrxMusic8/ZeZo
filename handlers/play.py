@@ -200,7 +200,7 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-               text=f"**ㅤㅤㅤ» ✅ تم التشغيل ياحبي «**\n🐰 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n🕴 **الدردشة​:** `{message.chat.title}`\n🐰 **نوع التشغيل:** موسيقى\n",
+               text=f"**ㅤㅤㅤ» ✅ تم التشغيل ياحبي «**\n🎧 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n🕴 **الدردشة​:** `{message.chat.title}`\n🐰 **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
