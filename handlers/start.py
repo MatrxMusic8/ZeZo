@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━
  مرحبا انا بوت يمكنني تشغيل الاغاني في المكالمات الصوتيه
 اضغط على زر الاوامر لمعرفة طريقة التشغيل 
-قناة ســـورس زيزو [قناة السورس](t.me/SourseZezoMusic)...
+قناة ســـورس ميوزك [قناة السورس](t.me/SourseZezoMusic)...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -51,11 +51,11 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("زيزو", url=f"https://t.me/B_o_d_a_90"),
            ],
             [ 
-                InlineKeyboardButton("زيزو", url=f"https://t.me/Ng_102"),
+                InlineKeyboardButton("زلزال", url=f"https://t.me/D_a_d_z_e_l_z_a_l"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔᷂᷂🦖", url=f"https://t.me/SourseZezoMusic"
+                    "𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔᷂᷂☑️", url=f"https://t.me/SourseZezoMusic"
                 ),
             ],
             [
