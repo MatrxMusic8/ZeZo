@@ -48,14 +48,14 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("زيزو", url=f"https://t.me/B_o_d_a_90"),
+                InlineKeyboardButton("المجرم", url=f"https://t.me/B_o_d_a_90"),
            ],
             [ 
                 InlineKeyboardButton("زلزال", url=f"https://t.me/D_a_d_z_e_l_z_a_l"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔᷂᷂☑️", url=f"https://t.me/SourseZezoMusic"
+                    "سورس ميوزك☑️", url=f"https://t.me/SourseZezoMusic"
                 ),
             ],
             [
