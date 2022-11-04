@@ -44,14 +44,14 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/b557e5cffeadff7704af9.jpg",
-        caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚐𝚘𝚍𝚣𝚎𝚕ł𝚊](t.me/D_a_d_z_e_l_z_a_l)  """,
+        caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚐𝚘𝚍𝚣𝚎𝚕ł𝚊](t.me/D_a_D_Z_e_l_z_a_l_l)  """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
                 InlineKeyboardButton("المجرم", url=f"https://t.me/B_o_d_a_90"),
            ],
             [ 
-                InlineKeyboardButton("زلزال", url=f"https://t.me/D_a_d_z_e_l_z_a_l"),
+                InlineKeyboardButton("زلزال", url=f"https://t.me/D_a_D_Z_e_l_z_a_l_l"),
             ],
             [
                 InlineKeyboardButton(
@@ -59,7 +59,7 @@ async def start(client: Client, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton("🐥اضفني الى مجموعتك🐥", url=f"https://t.me/K61TBot?startgroup=true"),
+                InlineKeyboardButton("🐥اضفني الى مجموعتك🐥", url=f"https://t.me/H_A_G_A_R_M_U_S_I_C_bot?startgroup=true"),
             ]
          ]
      )
