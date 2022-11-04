@@ -55,8 +55,7 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "
-                    ☑️", url=f"https://t.me/SourseZezoMusic"
+                    "سورس ميوزك ", url=f"https://t.me/SourseZezoMusic"
                 ),
             ],
             [
