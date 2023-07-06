@@ -4,7 +4,7 @@ py-tgcalls==0.8.6
 python-dotenv
 youtube_search_python
 requests
-yt-dlp==2021.12.01
+yt-dlp==2023.7.6
 aiohttp
 aiofiles
 asyncio
